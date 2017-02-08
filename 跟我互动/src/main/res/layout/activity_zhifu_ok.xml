@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/line2"
+    android:orientation="vertical">
+
+    <include layout="@layout/bar_top" />
+
+    <ImageView
+        android:layout_width="@dimen/margin_size_100dp"
+        android:layout_height="@dimen/margin_size_100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_size_100dp"
+        android:src="@drawable/img01" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_size_20dp"
+        android:gravity="center"
+        android:text="支付成功"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_size_30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margin_size_100dp"
+        android:layout_marginTop="@dimen/margin_size_50dp"
+        android:background="@color/blue"
+        android:paddingBottom="@dimen/margin_size_8dp"
+        android:paddingLeft="@dimen/margin_size_50dp"
+        android:paddingRight="@dimen/margin_size_50dp"
+        android:paddingTop="@dimen/margin_size_8dp"
+        android:text="返回项目"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_18sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:padding="@dimen/margin_size_15dp">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/margin_size_15dp"
+            android:text="支付方式"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size_15sp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/text"
+            android:layout_marginBottom="@dimen/margin_size_20dp"
+            android:layout_marginTop="@dimen/margin_size_15dp"
+            android:text="支付方式"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size_15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/text2"
+            android:layout_toRightOf="@+id/text"
+            android:gravity="right"
+            android:text="￥406.00"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size_15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/text"
+            android:layout_toRightOf="@+id/text"
+            android:gravity="right"
+            android:text="微信支付"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size_15sp"
+
+            />
+    </RelativeLayout>
+</LinearLayout>

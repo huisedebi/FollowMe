@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/bar_top" />
+
+    <ImageView
+        android:layout_width="@dimen/margin_size_80dp"
+        android:layout_height="@dimen/margin_size_80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_size_40dp"
+        android:src="@drawable/login_person" />
+
+    <EditText
+        android:id="@+id/ed_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_size_20dp"
+        android:background="@null"
+        android:drawableLeft="@drawable/login_phone"
+        android:drawablePadding="@dimen/margin_size_15dp"
+        android:hint="请输入手机号"
+        android:padding="@dimen/margin_size_15dp"
+        android:textColorHint="@color/line4" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_1dp"
+        android:background="@color/line2" />
+
+    <EditText
+        android:id="@+id/ed_psw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:drawableLeft="@drawable/login_psw"
+        android:drawablePadding="@dimen/margin_size_15dp"
+        android:hint="请输入密码"
+        android:padding="@dimen/margin_size_15dp"
+        android:textColorHint="@color/line4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/line2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="@dimen/margin_size_15dp"
+            android:text="忘记密码?" />
+
+        <Button
+            android:id="@+id/bt_login"
+            style="@style/bt_sure"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_40dp"
+            android:text="登录" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_size_30dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/margin_size_1dp"
+                android:layout_marginLeft="@dimen/margin_size_15dp"
+                android:layout_marginRight="@dimen/margin_size_15dp"
+                android:layout_weight="1"
+                android:background="@color/line4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="其他登录方式" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/margin_size_1dp"
+                android:layout_marginLeft="@dimen/margin_size_15dp"
+                android:layout_marginRight="@dimen/margin_size_15dp"
+                android:layout_weight="1"
+                android:background="@color/line4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_size_30dp">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_30dp"
+                android:layout_height="@dimen/margin_size_30dp"
+                android:layout_marginRight="@dimen/margin_size_40dp"
+                android:src="@drawable/weibo" />
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_30dp"
+                android:layout_height="@dimen/margin_size_30dp"
+                android:layout_marginRight="@dimen/margin_size_40dp"
+                android:src="@drawable/weixin" />
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_30dp"
+                android:layout_height="@dimen/margin_size_30dp"
+                android:src="@drawable/qq" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

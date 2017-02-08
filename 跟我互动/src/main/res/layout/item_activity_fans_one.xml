@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_12dp"
+        android:background="@color/line2" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_150dp"
+        android:padding="@dimen/margin_size_15dp">
+
+        <ImageView
+            android:id="@+id/img_person"
+            android:layout_width="@dimen/margin_size_60dp"
+            android:layout_height="@dimen/margin_size_60dp"
+            android:src="@drawable/img01" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_size_20dp"
+            android:layout_toRightOf="@id/img_person"
+            android:text="小米"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size_16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name"
+            android:layout_marginLeft="@dimen/margin_size_20dp"
+            android:layout_marginTop="@dimen/margin_size_15dp"
+            android:layout_toRightOf="@id/img_person"
+            android:lineSpacingExtra="@dimen/margin_size_6dp"
+            android:text="刘涛刘涛刘涛刘涛刘涛刘涛刘涛刘涛刘涛刘涛刘涛刘涛刘涛刘涛刘涛刘涛刘涛刘涛刘涛刘涛" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_1dp"
+        android:background="@color/line2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_size_20dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="参与任务者" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_size_15dp"
+                android:text="30"
+                android:textSize="@dimen/font_size_20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="参与资金" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_size_15dp"
+                android:text="30"
+                android:textSize="@dimen/font_size_20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_40dp"
+        android:background="@color/line2"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin_size_15dp"
+        android:text="参与过的任务" />
+</LinearLayout>

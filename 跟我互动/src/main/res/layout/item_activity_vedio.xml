@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_size_15dp"
+        android:text="明星群集慈善活动"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_size_16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:paddingLeft="@dimen/margin_size_15dp"
+        android:paddingRight="@dimen/margin_size_15dp"
+        android:text="优秀的设计是五星的优秀的设计是五星的优秀的设计是五星的优秀的设计是五星的"
+        android:textSize="@dimen/font_size_13sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_200dp"
+        android:layout_margin="@dimen/margin_size_15dp"
+        android:src="@drawable/img01" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_1dp"
+        android:background="@color/line2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/margin_size_45dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_15dp"
+                android:layout_height="@dimen/margin_size_15dp"
+                android:src="@drawable/img01" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_5dp"
+                android:text="收藏" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_5dp"
+                android:text="3" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="@dimen/margin_size_1dp"
+            android:layout_height="match_parent"
+            android:background="@color/line2" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/margin_size_45dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_15dp"
+                android:layout_height="@dimen/margin_size_15dp"
+                android:src="@drawable/img01" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_5dp"
+                android:text="收藏" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_5dp"
+                android:text="3" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="@dimen/margin_size_1dp"
+            android:layout_height="match_parent"
+            android:background="@color/line2" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/margin_size_45dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_15dp"
+                android:layout_height="@dimen/margin_size_15dp"
+                android:src="@drawable/img01" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_5dp"
+                android:text="收藏" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_5dp"
+                android:text="3" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="@dimen/margin_size_1dp"
+            android:layout_height="match_parent"
+            android:background="@color/line2" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/margin_size_45dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_15dp"
+                android:layout_height="@dimen/margin_size_15dp"
+                android:src="@drawable/img01" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_5dp"
+                android:text="收藏" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_5dp"
+                android:text="3" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_12dp"
+        android:background="@color/line2" />
+</LinearLayout>

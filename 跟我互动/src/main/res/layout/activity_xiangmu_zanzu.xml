@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/bar_top" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_8dp"
+            android:background="@color/line2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_size_15dp"
+            android:text="支付金额" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_size_15dp"
+            android:text="￥500.00"
+            android:textSize="@dimen/font_size_35sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_12dp"
+            android:background="@color/line2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_size_15dp"
+            android:text="项目名称" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_1dp"
+            android:layout_marginLeft="@dimen/margin_size_15dp"
+            android:layout_marginRight="@dimen/margin_size_15dp"
+            android:background="@color/line2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_size_15dp"
+            android:text="那些以主人为例的娱乐明细"
+            android:textColor="@color/line5" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/margin_size_3dp"
+            android:paddingBottom="@dimen/margin_size_30dp"
+            android:paddingLeft="@dimen/margin_size_15dp"
+            android:paddingRight="@dimen/margin_size_15dp"
+            android:text="那些以主人为例的娱乐明细那些以主人为例的娱乐明细那些以主人为例的娱乐明细那些以主人为例的娱乐明细那些以主人为例的娱乐明细" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_12dp"
+            android:background="@color/line2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_size_15dp"
+            android:text="赞助要求" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_1dp"
+            android:layout_marginLeft="@dimen/margin_size_15dp"
+            android:layout_marginRight="@dimen/margin_size_15dp"
+            android:background="@color/line2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/margin_size_3dp"
+            android:paddingBottom="@dimen/margin_size_30dp"
+            android:paddingLeft="@dimen/margin_size_15dp"
+            android:paddingRight="@dimen/margin_size_15dp"
+            android:paddingTop="@dimen/margin_size_15dp"
+            android:text="那些以主人为例的娱乐明细那些以主人为例的娱乐明细那些以主人为例的娱乐明细那些以主人为例的娱乐明细那些以主人为例的娱乐明细" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_12dp"
+            android:background="@color/line2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_size_12dp"
+            android:text="支付方式"
+            android:textSize="@dimen/font_size_15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_1dp"
+            android:background="@color/line2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin_size_15dp">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_20dp"
+                android:layout_height="@dimen/margin_size_20dp"
+                android:src="@drawable/ic_zhifubao" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_8dp"
+                android:layout_weight="1"
+                android:text="支付宝" />
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_20dp"
+                android:layout_height="@dimen/margin_size_20dp"
+                android:src="@drawable/ic_gou" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_1dp"
+            android:background="@color/line2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin_size_15dp">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_20dp"
+                android:layout_height="@dimen/margin_size_20dp"
+                android:src="@drawable/ic_weixin" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_8dp"
+                android:layout_weight="1"
+                android:text="微信支付" />
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_20dp"
+                android:layout_height="@dimen/margin_size_20dp"
+                android:src="@drawable/ic_quan" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_1dp"
+            android:background="@color/line2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin_size_15dp">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_20dp"
+                android:layout_height="@dimen/margin_size_20dp"
+                android:src="@drawable/ic_yinlian" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_8dp"
+                android:layout_weight="1"
+                android:text="银联支付" />
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_20dp"
+                android:layout_height="@dimen/margin_size_20dp"
+                android:src="@drawable/ic_quan" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_1dp"
+            android:background="@color/line2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin_size_15dp">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_20dp"
+                android:layout_height="@dimen/margin_size_20dp"
+                android:src="@drawable/ic_yinlian" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_8dp"
+                android:layout_weight="1"
+                android:text="钱包支付" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="￥500" />
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_20dp"
+                android:layout_height="@dimen/margin_size_20dp"
+                android:layout_marginLeft="@dimen/margin_size_15dp"
+                android:src="@drawable/ic_quan" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_100dp"
+            android:background="@color/line2"
+            android:orientation="vertical">
+
+            <Button
+                style="@style/bt_sure"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_size_40dp"
+                android:layout_marginTop="@dimen/margin_size_30dp"
+                android:text="支付" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

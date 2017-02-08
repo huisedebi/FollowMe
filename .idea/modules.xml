@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FollowMe0208.iml" filepath="$PROJECT_DIR$/FollowMe0208.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_aiton/lib_aiton.iml" filepath="$PROJECT_DIR$/lib_aiton/lib_aiton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/跟我互动/跟我互动.iml" filepath="$PROJECT_DIR$/跟我互动/跟我互动.iml" />
+    </modules>
+  </component>
+</project>

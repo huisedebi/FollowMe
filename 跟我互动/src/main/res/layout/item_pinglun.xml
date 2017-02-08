@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+   >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/margin_size_20dp"
+    >
+ <TextView
+     android:id="@+id/tv_title"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="明星群集资慈善活动"
+     android:textColor="@color/black"
+     android:textSize="@dimen/font_size_16sp"
+     />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2016.03.05"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/font_size_14sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我喜欢韩寒的演技我喜欢韩寒的演技"
+        android:textSize="@dimen/font_size_14sp"
+        android:layout_below="@+id/tv_title"
+        android:layout_marginTop="@dimen/margin_size_15dp"
+        />
+</RelativeLayout>
+    <TextView
+        android:layout_marginTop="-10dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_8dp"
+        android:background="@color/line2"
+        />
+</LinearLayout>

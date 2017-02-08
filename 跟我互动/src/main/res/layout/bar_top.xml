@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue">
+
+    <TextView
+        android:id="@+id/tv_left"
+        android:layout_width="@dimen/margin_size_100dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/left"
+        android:drawablePadding="@dimen/margin_size_8dp"
+        android:padding="@dimen/margin_size_15dp"
+        tools:text="左边"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_14sp" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="@dimen/margin_size_100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        tools:text="标题"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_16sp" />
+
+    <TextView
+        android:id="@+id/tv_right"
+        android:layout_width="@dimen/margin_size_100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:padding="@dimen/margin_size_15dp"
+        tools:text="标题"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_14sp" />
+</RelativeLayout>

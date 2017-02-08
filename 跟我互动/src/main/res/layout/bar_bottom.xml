@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/buttom_bar"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:clipChildren="false"
+                android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ly_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_50dp"
+        android:orientation="horizontal"
+       >
+
+        <TextView
+            android:id="@+id/tv_tab01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawablePadding="@dimen/margin_size_4dp"
+            android:drawableTop="@drawable/ic_home_selector"
+            android:gravity="center"
+            android:onClick="changeFragment"
+            android:paddingTop="5dp"
+            android:text="首页"
+            android:textColor="@color/tab_main"
+            android:textSize="@dimen/font_size_10sp"/>
+
+        <TextView
+            android:id="@+id/tv_tab02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawablePadding="@dimen/margin_size_4dp"
+            android:drawableTop="@drawable/ic_classify_selector"
+            android:gravity="center"
+            android:onClick="changeFragment"
+            android:paddingTop="5dp"
+            android:text="发现"
+            android:textColor="@color/tab_main"
+            android:textSize="@dimen/font_size_10sp"/>
+
+        <ImageView
+            android:layout_gravity="bottom"
+            android:id="@+id/img_startproject"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:src="@drawable/img_index"
+            />
+
+        <TextView
+            android:id="@+id/tv_tab03"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawablePadding="@dimen/margin_size_4dp"
+            android:drawableTop="@drawable/ic_cart_selector"
+            android:gravity="center"
+            android:onClick="changeFragment"
+            android:paddingTop="5dp"
+            android:text="发现"
+            android:textColor="@color/tab_main"
+            android:textSize="@dimen/font_size_10sp"/>
+
+        <TextView
+            android:id="@+id/tv_tab04"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawablePadding="@dimen/margin_size_4dp"
+            android:drawableTop="@drawable/ic_mime_selector"
+            android:gravity="center"
+            android:onClick="changeFragment"
+            android:paddingTop="5dp"
+            android:text="发现"
+            android:textColor="@color/tab_main"
+            android:textSize="@dimen/font_size_10sp"/>
+
+    </LinearLayout>
+</RelativeLayout>

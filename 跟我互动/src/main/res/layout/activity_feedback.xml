@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/line2"
+    >
+
+    <include layout="@layout/bar_top" />
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/margin_size_100dp"
+       android:layout_marginTop="@dimen/margin_size_10dp"
+       android:background="@color/white"
+       android:padding="@dimen/margin_size_10dp"
+       android:hint="说点什么吧"
+       android:gravity="top"
+       android:textSize="@dimen/font_size_13sp"
+       />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_40dp"
+        style="@style/bt_sure"
+        android:layout_marginTop="@dimen/margin_size_30dp"
+        android:text="提交"
+        />
+</LinearLayout>

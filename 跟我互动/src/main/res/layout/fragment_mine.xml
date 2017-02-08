@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_230dp"
+            android:background="@drawable/backgroup"
+            android:padding="@dimen/margin_size_15dp">
+
+            <ImageView
+                android:id="@+id/img_person"
+                android:layout_width="@dimen/margin_size_80dp"
+                android:layout_height="@dimen/margin_size_80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_size_25dp"
+                android:src="@drawable/img_person" />
+
+            <ImageView
+                android:id="@+id/img_setting"
+                android:layout_width="@dimen/margin_size_25dp"
+                android:layout_height="@dimen/margin_size_25dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/setting" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_person"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_size_10dp"
+                android:text="呵呵"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size_15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_name"
+                android:layout_marginTop="@dimen/margin_size_15dp"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/yrz" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_size_10dp"
+                    android:src="@drawable/wxmx" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_size_10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="参与" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="粉丝" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="关注" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="发布" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/margin_size_10dp"
+            android:paddingRight="@dimen/margin_size_10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="35"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size_15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="35"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size_15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="35"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size_15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="35"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size_15sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_8dp"
+            android:layout_marginTop="@dimen/margin_size_15dp"
+            android:background="@color/line2" />
+
+        <LinearLayout
+            android:id="@+id/layout_personinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin_size_15dp">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_15dp"
+                android:layout_height="@dimen/margin_size_15dp"
+                android:src="@drawable/hyxx" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_10dp"
+                android:text="会员信息"
+                android:textSize="@dimen/font_size_13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_1dp"
+            android:background="@color/line2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin_size_15dp">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_15dp"
+                android:layout_height="@dimen/margin_size_15dp"
+                android:src="@drawable/wdrz" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_10dp"
+                android:text="我的认证"
+                android:textSize="@dimen/font_size_13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_1dp"
+            android:background="@color/line2" />
+
+        <LinearLayout
+            android:id="@+id/layout_wallet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin_size_15dp">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_15dp"
+                android:layout_height="@dimen/margin_size_15dp"
+                android:src="@drawable/wdqb" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_10dp"
+                android:text="我的钱包"
+                android:textSize="@dimen/font_size_13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_1dp"
+            android:background="@color/line2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin_size_15dp">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_15dp"
+                android:layout_height="@dimen/margin_size_15dp"
+                android:src="@drawable/wdfs" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_10dp"
+                android:text="我的粉丝 "
+                android:textSize="@dimen/font_size_13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_15dp"
+            android:background="@color/line2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin_size_15dp">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_15dp"
+                android:layout_height="@dimen/margin_size_15dp"
+                android:src="@drawable/wdcy" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_10dp"
+                android:text="我的参与"
+                android:textSize="@dimen/font_size_13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_1dp"
+            android:background="@color/line2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin_size_15dp">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_15dp"
+                android:layout_height="@dimen/margin_size_15dp"
+                android:src="@drawable/wdfq" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_10dp"
+                android:text="我的发起"
+                android:textSize="@dimen/font_size_13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_1dp"
+            android:background="@color/line2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin_size_15dp">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_15dp"
+                android:layout_height="@dimen/margin_size_15dp"
+                android:src="@drawable/wdsc" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_10dp"
+                android:text="我的收藏"
+                android:textSize="@dimen/font_size_13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_1dp"
+            android:background="@color/line2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin_size_15dp">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_15dp"
+                android:layout_height="@dimen/margin_size_15dp"
+                android:src="@drawable/wdrw" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_10dp"
+                android:text="我的任务 "
+                android:textSize="@dimen/font_size_13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_15dp"
+            android:background="@color/line2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin_size_15dp">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_15dp"
+                android:layout_height="@dimen/margin_size_15dp"
+                android:src="@drawable/wdpl" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_10dp"
+                android:text="我的评论"
+                android:textSize="@dimen/font_size_13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_1dp"
+            android:background="@color/line2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin_size_15dp">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_15dp"
+                android:layout_height="@dimen/margin_size_15dp"
+                android:src="@drawable/wdsq" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_10dp"
+                android:text="我的社区"
+                android:textSize="@dimen/font_size_13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_1dp"
+            android:background="@color/line2" />
+
+        <LinearLayout
+            android:id="@+id/layout_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin_size_15dp">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_15dp"
+                android:layout_height="@dimen/margin_size_15dp"
+                android:src="@drawable/ptfk" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_10dp"
+                android:text="平台反馈"
+                android:textSize="@dimen/font_size_13sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
